@@ -18,6 +18,7 @@ async function getShortenedLink(oldLink) {
         }
     } catch (error) {
         console.log(error);
+        alert('There was an error shortening this URL: \n' + error + '\n\nTry another URL, or try again later');
     }
 }
 
